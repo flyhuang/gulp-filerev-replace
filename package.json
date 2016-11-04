@@ -1,7 +1,7 @@
 {
   "name": "gulp-filerev-replace",
   "description": "Rev and replace files according to their mutual dependencies",
-  "version": "1.0.0",
+  "version": "1.0.0-chainz-0.0.1",
   "homepage": "https://github.com/solidusjs/gulp-filerev-replace",
   "author": {
     "name": "Joannic Laborde",
@@ -39,5 +39,8 @@
   },
   "keywords": [
     "gulpplugin"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "http://10.16.100.79:8081/repository/npm-chainz/"
+  }
 }

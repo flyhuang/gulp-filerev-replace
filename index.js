@@ -181,7 +181,9 @@ function escapeRegExp(str) {
 
 function webPath(file) {
   var self = this;
-  return '/' + path.relative(self.options.base || file.base, file.path);
+  // return '/' + path.relative(self.options.base || file.base, file.path);
+  //IONIC 2 Path issue. not web path issue.
+  return path.relative(self.options.base || file.base, file.path);
 };
 
 function maxDepth(stack, references) {
